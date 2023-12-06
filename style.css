@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(174, 174, 245);
+    grid-gap: 5px;
+    display: grid;
+    grid-template-areas: 
+        "cab cab cab"
+        "pri pri pri"
+        "rod rod rod";
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto 1000px auto;
+}
+header{
+    background-image: linear-gradient(to right, rgb(72, 55, 131), rgb(39, 106, 231));
+    display: flex;
+    padding: 1rem;
+    position: relative;
+}
+
+header{
+    grid-area: cab;
+}
+main{
+    grid-area: pri;
+}
+header{
+    display: flex;/* serve para colocar o displey*/
+    height: 200px;/*serve para mudar a altura  */
+}
+nav li{ /* aqui eu modifico apenas a lista de links */
+    display: inline; /* coloca os links do navegador em linha */
+    margin-left: 20px;/*  */
+}
+
+nav a{ /* aqui eu modifico apenas as palavras ancoradas */
+    text-decoration: none;/* tira a linha das palavras ancoradas */
+    font-size: 1.5rem;/* aumenta a letra da as palavras ancoradas */
+    color: red;
+    border: solid yellowgreen; /* coloco uma borda ao redor da palavra */
+    background: white; /* fundo do botaoo */
+    transition: 1s; /* tempo de trasicao */
+}
+nav a:hover{ /* aqui eu faco uma animacaozinha dos botoes */
+    font-size: 40px;/* aumenta a letra da as palavras ancoradas */
+    color: white; /* modifico a cor da letra */
+    border: solid rgb(119, 13, 13); /* modifico a cor da borda */
+    background: rgb(212, 58, 58); /* modifico a cor do fundo */
+}
+nav{
+    justify-content: center;/* esse codigo serve para centralizar os meus links */
+    align-items: center;/* esse codigo serve para centralizar os meus links */
+    display: flex;/* esse codigo serve para centralizar os meus links */
+    flex-wrap: wrap;/* esse codigo serve para centralizar os meus links */
+    position: absolute;/* esse codigo serve para centralizar os meus links */
+    top: 90px;/* esse codigo serve para mudar os meu links para a esquerda*/
+    left: 400px;/* esse codigo serve para mudar os meus links para direita*/
+}
+nav a{
+    margin: 20px;/* aqui eu mudamos o tamanho da margim */
+    }
+.verde{
+    color: green;/* aqui eu ponho a cor da resposta certa  */
+}
+.vermelho{
+    color: red;/* aqui eu ponho a cor da resposta errrada */
+}
+
+img{
+    justify-content: center;/* arrumar a posicao da imagem */
+    align-items: center;/* arrumar a posicao da imagem */
+    display: flex;/* arrumar a posicao da imagem */
+    flex-wrap: wrap;/* arrumar a posicao da imagem */
+    width:  100;/* arrumar a posicao da imagem */
+    
+}
+.container {
+    text-align: center;/* arrumar a posicao  */
+  }
+  
+  #getulioImage {
+    width: 300px;/* arrumar a posicao da imagem */
+    height: 300px;/* arrumar a posicao da imagem */
+    border-radius: 50%;/* arrumar a posicao da imagem */
+    cursor: pointer;/* arrumar a posicao da imagem */
+  }
+  
+  #getulioText {
+    display: none;
+  }
+  p{
+    font-size: 20px;/* mudar o tamanho das letras */
+   
+}
+ img{
+    width: 200px;/* aqui eu modifico apenas a posicao da imagem do header*/
+    height: auto;
+}
+img {
+    width: 25%;
+    margin: auto;
+    display: block;
+    }
+p{
+    width: 50%;
+    margin: auto;
+    display: block;
+
+}
+h2{
+    width: 50%;
+    margin: auto;
+    display: block;
+    color: rgb(36, 65, 55);
+
+}
+main{
+    background-color: rgb(174, 174, 245);
+}

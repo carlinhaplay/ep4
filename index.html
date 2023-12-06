@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<header>
+    <h1></h1>    
+    <nav>
+        <ul>
+            <li><a href="#pizza doce">PAGINA PRINCIPAL</a></li> <!-- aqui eu faço um link -->
+
+            <li><a href="questoes.html">QUESTOES</a></li> <!-- aqui eu faço um link -->
+
+            <li><a href="comprar.html">RESPOSTAS</a></li>  <!-- aqui eu faço um link -->
+
+            <li><a href="cadastro.html">CADASTRO</a></li>  <!-- aqui eu faço um link -->
+
+        </ul>
+    </nav>
+    </header>
+<main>
+<body onload="inclui_nome()">
+
+    <script src="script.js"></script>  <!-- aqui eu conecto com o java script -->
+
+    <p id="marcacao_nome"></p>
+
+    <form>
+        <h3>1:Quando começou o governo Vargas?</h3>
+        <input type="radio" name="quest_1" value="correta">1930 <br>   <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <input type="radio" name="quest_1" value="errada">1919 <br>  <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <input type="radio" name="quest_1" value="errada">1945 <br>     <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <input type="radio" name="quest_1" value="errada">1964<br> <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <p id="resp_correta_1" class="verde"></p><p id="resp_errada_1" class="vermelho"></p><br>  <!-- aqui escolho qual cor eu quero que apareça quando eu verificar a resposta -->
+
+        <h3>Quais foram as dua principais fases do governo Vargas?</h3>
+        <input type="radio" name="quest_2" value="correta"> Ditatorial e populista <br> <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <input type="radio" name="quest_2" value="errada">Ditatorial e monarquico<br>   <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <input type="radio" name="quest_2" value="errada"> Autoritatio e democratico<br>   <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <input type="radio" name="quest_2" value="errada">Liberal e socialista <br>  <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <p id="resp_correta_2" class="verde"></p><p id="resp_errada_2" class="vermelho"></p> <!-- aqui escolho qual cor eu quero que apareça quando eu verificar a resposta -->
+
+        <h3>Qual foi o periodo conhecido como Estado Novo?</h3>
+        <input type="radio" name="quest_3" value="correta">1930-1945 <br>  <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <input type="radio" name="quest_3" value="errada">1936-1979 <br>  <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <input type="radio" name="quest_3" value="errada">1945-1950 <br>  <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <input type="radio" name="quest_3" value="errada">1950-1956 <br>  <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <p id="resp_correta_3" class="verde"></p><p id="resp_errada_3" class="vermelho"></p><br> <!-- aqui escolho qual cor eu quero que apareça quando eu verificar a resposta -->
+
+        <h3>Qual foi o nome do Pratido politico fundado por Vargas dusrante o Estado Novo?</h3>
+        <input type="radio" name="quest_4" value="correta"> Partido integralita brasileira<br>  <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <input type="radio" name="quest_4" value="errada">Partido comunista brasileiro <br>  <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <input type="radio" name="quest_4" value="errada">Partido facista brasileiro <br>  <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <input type="radio" name="quest_4" value="errada">Partido  brasileira <br>  <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <p id="resp_correta_4" class="verde"></p><p id="resp_errada_4" class="vermelho"></p> <!-- aqui escolho qual cor eu quero que apareça quando eu verificar a resposta -->
+
+        <h3>Qual foi a politica industrial implementada por Vargas durante o etado novo?</h3>
+        <input type="radio" name="quest_5" value="correta">Protecionismo<br>  <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <input type="radio" name="quest_5" value="errada">Liberalismo economico <br>  <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <input type="radio" name="quest_5" value="errada">Socoalismo<br>  <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <input type="radio" name="quest_5" value="errada">Anarquismo <br>  <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <p id="resp_correta_5" class="verde"></p><p id="resp_errada_5" class="vermelho"></p><br> <!-- aqui escolho qual cor eu quero que apareça quando eu verificar a resposta -->
+
+  <h3>Qual foi a principal funçao da CLT Consolidação das leis do trabalho criada por Vargas?</h3>
+        <input type="radio" name="quest_6" value="correta">Garantir direitos trabalhistas e regulaçao das relaçoes de trabalho<br>  <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <input type="radio" name="quest_6" value="errada">Regular a exploraçao do trabalhop infatil <br>  <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <input type="radio" name="quest_6" value="errada">Cria sindicatos patronais<br>  <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <input type="radio" name="quest_6" value="errada">Incentivar a terceirizaçao das empresas <br>  <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <p id="resp_correta_6" class="verde"></p><p id="resp_errada_6" class="vermelho"></p><br> <!-- aqui escolho qual cor eu quero que apareça quando eu verificar a resposta -->
+
+        <h3>Quem foi o principal lider politico de opoiçao a Vargas dusrante o estado novo?</h3>
+        <input type="radio" name="quest_7" value="correta">carlo lacerda<br>  <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <input type="radio" name="quest_7" value="errada">LULa<br>  <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <input type="radio" name="quest_7" value="errada">janio Quadros<br>  <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <input type="radio" name="quest_7" value="errada">Joao Goulart <br>  <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <p id="resp_correta_7" class="verde"></p><p id="resp_errada_7" class="vermelho"></p><br> <!-- aqui escolho qual cor eu quero que apareça quando eu verificar a resposta -->
+        
+        <h3>Em qual contexto Vargas foi deposto e exilado do Brasil?</h3>
+        <input type="radio" name="quest_8" value="correta"> Golpe Militar de 1964 <br>  <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <input type="radio" name="quest_8" value="errada">Revolução Constitucionalista de 1939 <br>  <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <input type="radio" name="quest_8" value="errada"> Revolução de 1930<br>  <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <input type="radio" name="quest_8" value="errada">Movimento tenentista de 1922 <br>  <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <p id="resp_correta_8" class="verde"></p><p id="resp_errada_8" class="vermelho"></p><br> <!-- aqui escolho qual cor eu quero que apareça quando eu verificar a resposta -->
+        
+
+        <h3>Qual foi a priincipal crise economica enfrentada pelo governo Vargas?</h3>
+        <input type="radio" name="quest_9" value="correta">Crise de 1929  <br>  <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <input type="radio" name="quest_9" value="errada">Crise do petroleo de 1973 <br>  <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <input type="radio" name="quest_9" value="errada">Crise do cafe 1950<br>  <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <input type="radio" name="quest_9" value="correta">Nenhuma das alternativas<br>  <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <p id="resp_correta_9" class="verde"></p><p id="resp_errada_9" class="vermelho"></p><br> <!-- aqui escolho qual cor eu quero que apareça quando eu verificar a resposta -->
+        
+        <h3>Em qual cidade Vargas veio a falecer? </h3>
+        <input type="radio" name="quest_10" value="correta">Rio de janeiro<br>  <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <input type="radio" name="quest_10" value="errada">Brasilia <br>  <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <input type="radio" name="quest_10" value="errada">Sao paulo<br>  <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <input type="radio" name="quest_10" value="errada">Porto alegre <br>  <!-- aqui eu ponho se a resposta é correta ou errada -->
+        <p id="resp_correta_10" class="verde"></p><p id="resp_errada_10" class="vermelho"></p><br> <!-- aqui escolho qual cor eu quero que apareça quando eu verificar a resposta -->
+
+
+
+        <p id="quantos_acertos"></p> <!-- aqui eu ponho uma tag parta saber quantos acertops eu fiz -->
+            <button type="button" onclick="funcao_resposta()">Responder</button> <!-- aqui eu ponho um botao para clicar e responder -->
+    </form>
+    </main>
+</body>
+</html>
